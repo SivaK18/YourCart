@@ -1,2 +1,2 @@
 # YourCart
-App landing page for yourcatr
+App landing page for yourcart
