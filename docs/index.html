@@ -29,6 +29,28 @@
 	<link rel="stylesheet" href="css/hexagons.min.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
+	<style>
+		/* scroll up  */
+	#scrollUp{
+		background:#2c75e7;
+		height:50px;
+		width:50px;
+		right:31px;
+		bottom:18px;
+		color:#fff;
+		font-size:20px;
+		text-align:center;
+		border-radius:50%;
+		line-height:48px;
+		border:2px solid transparent
+	}
+	@media (max-width: 767px){
+		#scrollUp{right:16px}
+	}
+	#scrollUp:hover{
+		color:#fff
+	}
+	</style>
 </head>
 
 <body>
@@ -53,7 +75,7 @@
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
-						<li class="menu-active"><a href="#">Home</a></li>
+						<li class="menu-active"><a href="#Home">Home</a></li>
 						<li><a href="#Features">Features</a></li>
 						<li><a href="#About">About</a></li>
 						<li><a href="#Video">Intro Video</a></li>
@@ -82,7 +104,7 @@
 	<!-- end header Area -->
 	<!-- start banner Area -->
 	<section class="home-banner-area">
-		<div class="container">
+		<div class="container" id="Home">
 			<div class="row fullscreen d-flex align-items-center justify-content-between">
 				<div class="home-banner-content col-lg-6 col-md-6">
 					<h1>
@@ -636,6 +658,7 @@
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/mail-script.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/scrollup.js"></script>
 </body>
 
 </html>
