@@ -40,7 +40,7 @@
 		font-size:20px;
 		text-align:center;
 		border-radius:50%;
-		line-height:2;
+		line-height:5vh;
 		border:2px solid transparent
 	}
 	@media (max-width: 767px){
@@ -64,8 +64,12 @@ footer{
 h3{
 	margin-top: 1vh !important;
 }
+.bnr-img{
+	padding-top: 4vh;
+}
+
 .youtube .play { position: absolute; top:50%; left:50%; }
-	</style>
+</style>
 </head>
 <body>
 	<!-- Preloader Start -->
@@ -85,7 +89,7 @@ h3{
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="#" class="text-dark" >YourCart</a>
+					<a href="#" class="text-dark font-weight-bolder"><h3>YourCart</h3></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
@@ -118,8 +122,8 @@ h3{
 	<!-- start banner Area -->
 	<section class="home-banner-area">
 		<div class="container" id="Home">
-			<div class="row fullscreen d-flex align-items-center justify-content-between">
-				<div class="home-banner-content col-lg-6 col-md-6">
+			<div class="row fullscreen d-flex align-items-center justify-content-between ">
+				<div class="home-banner-content order-2 order-sm-1 col-lg-6 col-md-6">
 					<h1>
 						App that brings your home, your needs plus our love! 
 					</h1>
@@ -150,8 +154,8 @@ h3{
 						</div>
 					</div>
 				</div>
-				<div class="banner-img col-lg-4 col-md-6">
-					<img class="img-fluid" src="img/banner.png" alt="">
+				<div class="col-lg-4 col-md-6  order-1 order-sm-2">
+					<img class="img-fluid bnr-img" src="img/banner.png" alt="">
 				</div>
 			</div>
 		</div>
