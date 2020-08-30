@@ -1879,9 +1879,9 @@ body.mobile-nav-active #mobile-nav-toggle {
         display: none; } }
   @media (max-width: 991px) {
     .home-banner-area .fullscreen {
-      height: 600px !important; }
+      height: 100vh !important; }
     }
-  @media (max-width: 550px) {
+  @media (max-width: 650px) {
     .home-banner-area .fullscreen {
       height: 200vh !important; }}
 
