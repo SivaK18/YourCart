@@ -1990,9 +1990,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #2f2f2f; }
 
 .about-video-right {
-  background: url(../img/video-bg.png) no-repeat center;
-  background-size: cover;
-  height: 645px; }
+  width: 87vw ;
+  height: 48.935vw; }
   .about-video-right .play-btn {
     z-index: 2; }
 
