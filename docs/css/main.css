@@ -1881,7 +1881,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     .home-banner-area .fullscreen {
       height: 100vh !important; }
     }
-  @media (max-width: 650px) {
+  @media (max-width: 767px) {
     .home-banner-area .fullscreen {
       height: 200vh !important; }}
 
