@@ -1862,7 +1862,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
 .home-banner-area {
-  background: url(../img/home-banner-bg.jpg) 25%;
+  background: url(../img/home-banner-bg.jpg) 0%;
   background-size: cover; }
   .home-banner-area .banner-img {
     text-align: right; }
@@ -1879,7 +1879,11 @@ body.mobile-nav-active #mobile-nav-toggle {
         display: none; } }
   @media (max-width: 991px) {
     .home-banner-area .fullscreen {
-      height: 700px !important; } }
+      height: 600px !important; }
+    }
+  @media (max-width: 550px) {
+    .home-banner-area .fullscreen {
+      height: 200vh !important; }}
 
 .banner-area {
   background: url(../img/banner.jpg) center;
