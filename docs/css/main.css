@@ -1879,11 +1879,16 @@ body.mobile-nav-active #mobile-nav-toggle {
         display: none; } }
   @media (max-width: 991px) {
     .home-banner-area .fullscreen {
-      height: 100vh !important; }
+      height: 100vh !important;  }
     }
   @media (max-width: 767px) {
     .home-banner-area .fullscreen {
       height: 200vh !important; }}
+
+  @media (max-width: 350px), (max-height: 590px) {
+    .home-banner-area .fullscreen {
+      height: 220vh !important; }}
+    
 
 .banner-area {
   background: url(../img/banner.jpg) center;
