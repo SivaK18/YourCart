@@ -197,7 +197,7 @@ $(document).ready(function () {
             responsiveClass: true,
             thumbs: true,
             thumbsPrerendered: true,
-            navText: ["<i class='lnr lnr-arrow-left'></i>", "<i class='lnr lnr-arrow-right'></i>"]
+            navText: ["<i class='fa fa-arrow-left'></i>", "<i class='fa fa-arrow-left'></i>"]
         })
     }
 
@@ -227,9 +227,9 @@ $(document).ready(function () {
             margin: 30,
             items: 4,
             nav: false,
-            // autoplay: 2500,
+            autoplay: 2500,
             smartSpeed: 1500,
-            dots: false,
+            dots: true,
             responsive: {
                 0: {
                     items: 1,
