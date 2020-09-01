@@ -1877,24 +1877,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     @media (max-width: 767px) {
       .home-banner-area .banner-img {
         display: none; } }
-  @media (max-width:1500px) {
-    .home-banner-area .fullscreen {
-    height: 104vh !important;
-  }
-}
   @media (max-width: 991px) {
     .home-banner-area .fullscreen {
       height: 100vh !important;  }
     }
   @media (max-width: 767px) {
     .home-banner-area .fullscreen {
-      height: 200vh !important; }
-    }
+      height: 200vh !important; }}
 
-  @media (max-width: 350px) and (max-height: 590px) {
+  @media (max-width: 350px), (max-height: 590px) {
     .home-banner-area .fullscreen {
-      height: 220vh !important; }
-    }
+      height: 220vh !important; }}
     
 
 .banner-area {
