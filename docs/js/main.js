@@ -97,6 +97,8 @@ $(document).ready(function () {
             $('#mobile-body-overly').toggle();
         });
 
+    
+
         $(document).click(function (e) {
             var container = $("#mobile-nav, #mobile-nav-toggle");
             if (!container.is(e.target) && container.has(e.target).length === 0) {
@@ -137,7 +139,7 @@ $(document).ready(function () {
 
                 if ($('body').hasClass('mobile-nav-active')) {
                     $('body').removeClass('mobile-nav-active');
-                    $('#mobile-nav-toggle i').toggleClass('lnr-times lnr-bars');
+                    $('#mobile-nav-toggle i').toggleClass('lnr-cross lnr-menu');
                     $('#mobile-body-overly').fadeOut();
                 }
                 return false;
